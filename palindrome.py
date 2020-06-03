@@ -1,6 +1,7 @@
 def palindrome(num):
 
-    '''Function takes a number converts it to string, reverses it and checks if both are same.If both are same it returns True else Flase.'''
+    '''Function takes a number, converts it to string, reverses it and checks if both are same.If both are same it returns True else False.
+    Time complexity O(n)'''
 
     #convering num to string
     num = str(num)
